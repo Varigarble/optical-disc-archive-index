@@ -1,7 +1,8 @@
 # Optical Disc Archive Index
 
 This is an optical disc class for entering optical disc information into a pickle file. Class defining, sample data 
-creation, and file creation and reading all take place when disc_object.py is run. 
+creation, and file creation and reading all take place when disc_object.py is run. The \_\_repr\_\_ method is updated 
+based on comparison to a default disc object.
 ___
 #### Output:
 
@@ -27,19 +28,19 @@ Changed fr. default: 5: burn_date: Nov. 2011 - May 2012, dupe_status: original, 
 
 disc_2 dict: {'burn_date': 'Nov. 2011 - May 2012', 'burn_verification': None, 'condition': None, 'creator': None, 'data_compression': None, 'dupe_status': 'original', 'encryption': None, 'disc_format': None, 'image_format': None, 'label': None, 'name': 'default', 'location': 'Hidden Valley Ranch', 'multi_volume_id': None, 'password': None, 'project': None, 'sub_type': '-r', 'supersession': None, 'tag': None, 'txt_index_loc': None, 'txt_index_name': None, 'disc_type': 'vcd', 'write_status': None, '_Disc__copies': 2}
 
-***DISC***
+\*\*\*DISC***
 
 disc name: default, DISC NAME HAS NOT BEEN SET!, disc type: not set, copies: 1, location: unknown. 
 
 Changed fr. default: 0:
 
-***DISC***
+\*\*\*DISC***
 
 disc name: Lipslip's Lisp pseudo-corpse, disc type: not set, copies: ERR, location: unknown, disc format: video. 
 
 Changed fr. default: 3: dupe_status: backup, disc_format: video, name: Lipslip's Lisp pseudo-corpse
 
-***DISC***
+\*\*\*DISC***
 
 disc name: default, DISC NAME HAS NOT BEEN SET!, disc type: vcd-r, copies: 2, location: Hidden Valley Ranch. 
 
