@@ -1,4 +1,4 @@
-#Optical Disc Archive Index
+# Optical Disc Archive Index
 
 This is an optical disc class for entering optical disc information into a pickle file. Class defining, sample data 
 creation, and file creation and reading all take place when disc_object.py is run. 
